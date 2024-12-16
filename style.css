@@ -1,0 +1,194 @@
+body{
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.zen-kaku-gothic-antique-regular {
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/*шапка*/
+header{
+    background-color: rgb(255, 255, 255);
+
+}
+
+.verst{
+    max-width: 25px;
+    float: left;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+.poi{
+    float: left;
+    margin-top: 0px;
+}
+.active{
+    padding-right: 40px;
+}
+
+.block{
+    position: relative;
+    text-align: right;
+    color: aliceblue;
+    padding: 10px;
+}
+
+.active{
+    text-decoration: none;
+}
+/*шапка*/
+/*сайт по центру (margin)*/
+.wrapper{
+    margin-left: 450px;
+    margin-right: 450px;
+}
+/*сайт по центру (margin)*/
+/*обо мне (1й блок)*/
+.im{
+    max-width: 250px;
+    float: left;
+    margin-right: 100px;
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+
+.textme{
+    text-align: justify; 
+}
+/*обо мне (1й блок)*/
+/*Мои работы (2й блок)*/
+.MyWorks{
+    clear: both;
+}
+
+.ysl{
+    width: 600px;
+    border-radius: 10px;
+    display: flexbox;
+    justify-content: center;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.ff{
+    text-align: center;
+    border-radius: 15px;
+    size: 25px;
+}
+.bit{
+    border-radius: 15px;
+    margin-left: 220px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+
+.bit:hover{
+    background-color:rgb(85, 85, 85);
+}
+.button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+  }
+
+.site1{
+    width: 600px;
+    border-radius: 10px;
+    display: flexbox;
+    justify-content: center;
+    text-decoration: none;
+    float: right;
+    clear: both;
+}
+
+.ggg{
+    clear: both;
+    border-radius: 15px;
+    float: right;
+    margin-right: 220px;
+    text-decoration: none;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.ggg:hover{
+    background-color:rgb(85, 85, 85);
+}
+
+.ee{
+    text-decoration: none;
+}
+
+.rr{
+    text-decoration: none;
+}
+.lll{
+    max-width: 600px;
+    border-radius: 20px;
+    float: left;
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
+
+.aaa{
+    max-width: 600px;
+    border-radius: 20px;
+    float: right;
+}
+
+
+/*Мои работы (2й блок)*/
+/*мои контакты (3й блок)*/
+.kontacts{
+    clear: both;
+}
+.ktext{
+    text-align: center;
+}
+.nbv{
+    margin-bottom: 15px;
+}
+.hgf{
+    margin-bottom: 15px;
+}
+/*мои контакты (3й блок)*/
+
+.rty{
+    text-align: center;
+}
+
+.yyy{
+    text-align: center;
+}
+.sw{
+    text-align: center;
+}
+footer{
+    padding: 30px 0;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+.mmm:hover{
+    background-color:rgb(85, 85, 85)
+}
+
+.rtb{
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.big_text{
+    font-style: italic;
+    text-transform: uppercase;
+}
